@@ -2468,10 +2468,6 @@ body {
 .cid-rupKunMPjX .collapsed .navbar-collapse.show .navbar-nav .nav-item {
   clear: both;
 }
-.cid-rupKunMPjX .collapsed .navbar-collapse.collapsing .navbar-nav .nav-item:last-child,
-.cid-rupKunMPjX .collapsed .navbar-collapse.show .navbar-nav .nav-item:last-child {
-  margin-bottom: 1rem;
-}
 .cid-rupKunMPjX .collapsed .navbar-collapse.collapsing .navbar-buttons,
 .cid-rupKunMPjX .collapsed .navbar-collapse.show .navbar-buttons {
   text-align: center;
@@ -2572,10 +2568,6 @@ body {
   .cid-rupKunMPjX .navbar-collapse.collapsing .navbar-nav .nav-item,
   .cid-rupKunMPjX .navbar-collapse.show .navbar-nav .nav-item {
     clear: both;
-  }
-  .cid-rupKunMPjX .navbar-collapse.collapsing .navbar-nav .nav-item:last-child,
-  .cid-rupKunMPjX .navbar-collapse.show .navbar-nav .nav-item:last-child {
-    margin-bottom: 1rem;
   }
   .cid-rupKunMPjX .navbar-collapse.collapsing .navbar-buttons,
   .cid-rupKunMPjX .navbar-collapse.show .navbar-buttons {
