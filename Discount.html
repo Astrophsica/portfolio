@@ -72,7 +72,7 @@
     </nav>
 </section>
 
-<section class="engine"><a href="https://mobirise.info/e">make your own website for free</a></section><section class="mbr-section content4 cid-rLqiZ36I0Y" id="content4-39">
+<section class="engine"><a href="https://mobirise.info/q">free responsive site templates</a></section><section class="mbr-section content4 cid-rLqiZ36I0Y" id="content4-39">
 
     
 
@@ -137,8 +137,56 @@
     <div class="container">
         <div class="media-container-row">
             <div class="title col-12 col-md-8">
-                <h2 class="align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-2"><span style="font-weight: normal;">My Solution</span></h2>
-                <h3 class="mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style display-7">My solution to the problem was to first note down all the requirements based on the task. After this, I start to think about how I will store what items are in the basket, and what classes and methods I might need.<br><br><strong>The Classes</strong><br>The 3 classes that I decided to add are:<br><br>• Item: This class is used to create item objects, which contains information such as item name, price and discount type.<br><br>• Discount: This class is used to create new discount types. Each type of discount has its own class which inherits from the main "Discount" class. Each discount class has a applyDiscount method, which returns the cost of items after discount has been applied.<br><br>• Basket: This class is used to store what items are in the basket. This includes the AddToBasket, GetBasket and CalculateTotalPrice method.<br><br><strong>Basket Improvements<br></strong>When looking at the requirements, I noticed that the&nbsp;<br><br><strong>Discount Improvements<br></strong><br></h3>
+                <h2 class="align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-2"><span style="font-weight: normal;">My Solution / Key Features</span></h2>
+                <h3 class="mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style display-7">The key features of my solution to the problem is the following:<br><br>• Display all shop items and its discount type and normal price<br>• Allow the user to select what item they want to add to the basket<br>• Display all the items that are currently in the basket and its quantity <br>&nbsp; (Example: "A: 2", "C: 4")<br>• Input validation (Example: User is allowed to enter "A", but not "&amp;")<br>• Display delivery cost and total cost after discount has been applied</h3>
+                
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section content5 cid-rN67x9aKSD" id="content5-3k">
+
+    
+
+    
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="title col-12 col-md-8">
+                <h2 class="align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-2"><span style="font-weight: normal;">The Classes</span></h2>
+                <h3 class="mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style display-7"><div>The 3 classes that I decided to add are:</div><br><div>
+</div><div>
+</div><div>• Item: This class is used to create item objects, which contains information such as item name, price and discount type.</div><br><div>
+</div><div>
+</div><div>• Discount: This class is used to create new discount types. Each type of discount has its own class which inherits from the main "Discount" class. Each discount class has a applyDiscount method, which returns the cost of items after discount has been applied.</div><br><div>
+</div><div>
+</div><div>• Basket: This class is used to store what items are in the basket. This includes the AddToBasket, GetBasket and CalculateTotalPrice method.</div></h3>
+                
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section content5 cid-rN69NnQu2y" id="content5-3l">
+
+    
+
+    
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="title col-12 col-md-8">
+                <h2 class="align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-2"><span style="font-weight: normal;">Specific Improvements</span></h2>
+                <h3 class="mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style display-7"><strong>
+Basket Improvements&nbsp;</strong><strong><br></strong><div>When looking at the requirements, I noticed that there could be a much better way of storing what items are in the basket. One posible solution is to store all the items that are in the basket, such as "AAABBCDD". However, the issue with this solution is that you would later need to work out the quantity of each item. I instead decided to use a dictionary and store the item and the quantity. For example, when I add a new item to the basket, I would only need to increase the quanityt of an item by 1. The dictionary looks similar to this: "A:3, B:2, C:1, D:2".
+</div><div><br></div><div><strong>Discount Improvements
+</strong></div><div>When looking at the different types of discounts, I noticed that a lot of the discounts offers are very similar, with the only difference being that each discount uses different numbers. For example, "2 for £20" offer is very similar to the "3 for £10" offer. This means that if both of these offers are very similar, I can use the same method for both these discounts, but use 2 different parameters for the offer quantity and offer price. In my discount system, I created 2 different discount classes, which are the following:
+</div><div><br></div><div>• "QuantityForSetPrice": This deals with offers such as "2 for £20" and "3 for £10".
+</div><div><br></div><div>• "BuyQuantityForPriceOfQuantity": This deals with offers such as "Buy 1 get 1 free" and "3 for the price of 2". The "Buy 1 get 1 free" offer is also the same as "Buy 2 for the price of 1".
+</div><div><br></div><div>This solution is much more useful when compared to other possible soutions, such as each item having its own discount calculations. My solution is very reusable, as a store with thousands of items can use the same discount type, but with different parameters.</div></h3>
                 
                 
             </div>
