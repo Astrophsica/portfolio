@@ -7911,13 +7911,34 @@ body {
 .cid-s19L2txfXO .mbr-section-subtitle {
   text-align: left;
 }
+.cid-s7mZdQ9FcI {
+  padding-top: 0px;
+  padding-bottom: 30px;
+  background-color: #0f7699;
+}
+.cid-s7mZdQ9FcI .mbr-section-subtitle {
+  text-align: left;
+}
+.cid-s7nb0KYhGD {
+  background: #0f7699;
+  padding-top: 0px;
+  padding-bottom: 60px;
+}
+.cid-s7nb0KYhGD .video-block {
+  margin: auto;
+}
+@media (max-width: 768px) {
+  .cid-s7nb0KYhGD .video-block {
+    width: 100% !important;
+  }
+}
 .cid-s19L2uxMbx {
   padding-top: 0px;
   padding-bottom: 60px;
   background-color: #0f7699;
 }
 .cid-s19L2uxMbx .mbr-section-subtitle {
-  color: #767676;
+  color: #ffffff;
 }
 .cid-s19L2uxMbx H2 {
   color: #ffffff;
